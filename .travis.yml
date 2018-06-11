@@ -1,1 +1,12 @@
 language: java
+deploy:
+  provider: releases
+  api_key:
+    secure: nMSCVIPBCv1+07ZJGP5epnAsGIz/q3IDLPZXpeCKsHz/O0imAW+ZdvSzwHGb9YawuLNSPy5Bd4RKdVqFuD81I1kCe28fKhssNiH6swiZ2M6Wr0FmgTH7IXKDHuHkAD7XhsjeXMfgEgTqcYNzx6wmYB0jVtsaV95fJRIty1Frua7pfXKLWYYjUKf14xlfYGwi65ydYKBrxbQhlyB7gw51r+ZE9augY7ZwhiXt41z8YmZj/WyYcreuvX137A+GsfTS9c2++DiGeXYnbwXcfPUkShDSX+izlQB329wqsPJiKKqKOqyUn1pVF5C2+PpPkDv7TWGgDFzBX0LUpfe7lL3xSNONrHOzLpnF1J/dFQNmxhe5E+vWHZZ/qEPxLXeJFZM2CMAOHzAsnQZzm7HYN0WjtBuWUheWcRnNxLOaOR3lAVhKP1J0qenzwIz6pVGcskxTBgUSc2IYIOqKR0ORuwHexWBIVgvkUdOntV2wvB2DqlvfUmIjhRM0POEVA6L99gZROaEIxlLwhMAocCcI9gkwqA5/d7LtEc8Bt42ii+xlMLh5ihru7TjeUiEP5/93rtTker6tADpU+FG2+1Rmn4+QwIoVesNlDlMG4FZsyzFhjO0XgVZ7KGfJUFYk8KhdDXbkuC2nMGEBBORJj7ON3aMMU1kXvGsWCcEvkCWXUJOjPGY=
+  file_glob: true
+  file: build/libs/*
+  skip_cleanup: true
+  on:
+    all_branches: true
+    tags: true
+    repo: xebialabs-community/xlr-semaphore-ci-plugin
