@@ -10,3 +10,6 @@ deploy:
     all_branches: true
     tags: true
     repo: xebialabs-community/xlr-semaphore-ci-plugin
+notifications:
+  slack:
+    secure: Zk9UBP+wKJc568lNZfSvv+YIILId6hwJYtnL4pTPHQyKugrw2roXfv/I2U/4AEWD3Py9vlshx4AfOTQ4K1xJLUYFVcEX01hoeGoRO6fcdnIuOLI8Kf1cU2r+lbI/Vy0FVUVhsXm0thtermTgGsIwkAHTf/1m1F6ZkAVbVUIYtw0yabjwR2Ol3Oaa2zr+CDXpe7xBOcdgVMehLbq+tY28okYBZC/N/wKcmV/fGMbLFVAhHMybfz8wU3KRZlnwUOXlea21Z+VpVimjyUZEjWfb28PnjqvFUOldRmLYplU+sZHD3tMJsSysFXhOFrfFnOJLZ9+kJuOIq5qZagGvAUPAWeqRBoi1yKZW7GqazFrgx1wEkFnr5ibUPrVmL3zPe29Y2d5RfqTt/jtYiBy6stLU6h/6fxlOCaYjbUwO4vomGHERHzaiw7BEIJ7/B62GzBJC5iHNVAieKzWap2MKd1BWnB+RVO00UTjYiIbINX/q56qBRYVxByIdNb8IYESOx3AKU85kCDpJvhDtYqQ5O/4LyrFwhN8pDEVOOm661n9Z/zWAhB90wUGbesSMlaW/k5Q9a3oXZ+ltHw5PQLMzvex4CRoARWTf6LWEb7uh96bhtjB93xvf6wvnEM9OeAKEduRkdB8syGpYdWKlSmzN18s4575tp6cjfNyAq3NPkzcA6+k=
